@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: tinkalshakya/apache-webserver-php:latest
         ports:
         - containerPort: 80
