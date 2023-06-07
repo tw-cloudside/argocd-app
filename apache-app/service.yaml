@@ -4,7 +4,7 @@ metadata:
   name: apache-service
 spec:
   selector:
-    app.kubernetes.io/name: apache-app
+    app: apache-app
   ports:
     - protocol: TCP
       port: 80
